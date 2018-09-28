@@ -1,0 +1,45 @@
+---
+title: "blirp build history"
+output: html_document
+---
+
+Creating a package for The Barrett Lab! 
+
+Using the `usethis` package to do make it, here's a little record of what I did:
+
+```{r, eval=FALSE}
+# Done outside the directory, to create it:
+# install.packages("usethis")
+# 
+# library(usethis)
+# tmp <- file.path("Documents/Work/PhD:McGill/Projects", "blirp")
+# create_package(tmp)
+
+# Made a new project window, rest done inside:
+library(usethis)
+
+use_gpl3_license("Tim Thurman")
+
+use_package("tidyr", "imports")
+use_package("stringr")
+
+use_git()
+
+use_readme_md()
+
+use_news_md()
+
+# to add documentation
+install.packages("roxygen2")
+use_roxygen_md()
+
+# To make the documents:
+devtools::document()
+
+use_r("len_nona.R")
+use_r("summarise_msdn.R")
+
+use_revdep()
+```
+
+
