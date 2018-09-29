@@ -1,4 +1,4 @@
-library(xlsx)
+# library(xlsx)
 export.file.names.in.table <- function(my.path) {
   # my.path = "/Volumes/folderX" # On a external hard drive
   # my.path = "~/Desktop/folderX" # Desktop
