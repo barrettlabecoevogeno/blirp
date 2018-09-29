@@ -12,7 +12,18 @@ Encoding: UTF-8
 LazyData: true
 Imports: 
     tidyr,
+    tidyverse,
     dplyr,
-    stringr
+    ggplot2,
+    stringr,
+    maps,
+    rworldmap,
+    xlsx,
+    ggmap,
+    maptools,
+    vegan,
+    digitize,
+    exif,
+    raster
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.0

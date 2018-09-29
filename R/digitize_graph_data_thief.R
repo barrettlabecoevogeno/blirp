@@ -1,4 +1,4 @@
-install.packages("digitize")
+# install.packages("digitize")
 library(digitize)
 # dev.off()
 # click on the x axis (lowest an highest known value)
