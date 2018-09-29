@@ -7,13 +7,13 @@
 # # Mean:
 # mean(y)
 
-# Geometric mean:
-geom.mean <- function(x) {
-  try(if(0 %in% x) {stop("Yo! There are '0's in here. Add +1 or delete the '0's, log(0) = -Inf")})
-    exp(mean(log(x))) # Cannot take 0 values
-  # prod(x)^(1/length(x)) #compute the geometric mean, same thing
-  }
-# geom.mean(x)
+# # Geometric mean:
+# geom.mean <- function(x) {
+#   try(if(0 %in% x) {stop("Yo! There are '0's in here. Add +1 or delete the '0's, log(0) = -Inf")})
+#     exp(mean(log(x))) # Cannot take 0 values
+#   # prod(x)^(1/length(x)) #compute the geometric mean, same thing
+#   }
+# # geom.mean(x)
 
 # Definition:
 # In mathematics, the geometric mean is a type of mean
@@ -27,11 +27,11 @@ geom.mean <- function(x) {
 
 
 
-# Harmonic mean:
-har.mean <- function(x) {
-    try(if(0 %in% x) {stop("Yo! There are '0's in here. Add +1 or delete the '0's, log(0) = -Inf")})
-  1/mean(1/x)} # Cannot take 0 values
-har.mean(x)
+# # Harmonic mean:
+# har.mean <- function(x) {
+#     try(if(0 %in% x) {stop("Yo! There are '0's in here. Add +1 or delete the '0's, log(0) = -Inf")})
+#   1/mean(1/x)} # Cannot take 0 values
+# # har.mean(x)
 
 # Definition:
 # Typically, it is appropriate for situations when

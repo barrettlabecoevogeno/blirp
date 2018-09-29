@@ -1,1 +1,3 @@
-`%notin%` = function(x,y) !(x %in% y)
+`%notin%` = function(x,y) {
+  !(x %in% y)
+  }
