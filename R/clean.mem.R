@@ -14,4 +14,6 @@
 #' z
 #'
 
-rm(list=ls(all=TRUE))
+clean.mem <- function() {
+  rm(list=ls(all=TRUE))
+}
