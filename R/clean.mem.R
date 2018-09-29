@@ -14,7 +14,9 @@
 #' z
 #'
 
-clean.mem <- function() {
-  rm(list = ls(all = TRUE, envir = parent.env(environment())), envir = parent.env(environment()))
+clean.mem <- function () {
+  rm(list = ls(all = TRUE, envir = globalenv()),
+     envir = globalenv())
   return(invisible(NULL))
 }
+
