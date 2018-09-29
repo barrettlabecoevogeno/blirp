@@ -1,14 +1,18 @@
 # blirp
 
-The goal of blirp is to ...
+blirp is a package developed for the students in the Barrett Lab at McGill University. The goal of this package is to share some of the scripts that students are putting together and share them so that the effort spent developing the scripts is shared! 
 
+## Creating packages in R 
+[This kink](https://r-mageddon.netlify.com/post/writing-an-r-package-from-scratch/) will guide you through the development of an R package. 
 
-https://r-mageddon.netlify.com/post/writing-an-r-package-from-scratch/
+## Installation from local machine
 
-## Installation
+install.packages("~/Documents/", repos = NULL, type = "source")
+library(blirp)
 
-
-install.packages("~/Documents/Work/PhD:McGill/Projects/blirp/", repos = NULL, type = "source")
+## Installation from github!
+library(devtools)
+install_github("barrettlabecoevogeno/blirp") 
 library(blirp)
 
 
