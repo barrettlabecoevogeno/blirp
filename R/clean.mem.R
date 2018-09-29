@@ -16,4 +16,5 @@
 
 clean.mem <- function() {
   rm(list=ls(all=TRUE))
+  invisible(NULL)
 }
