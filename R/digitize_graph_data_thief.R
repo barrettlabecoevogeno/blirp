@@ -12,13 +12,13 @@ library(digitize)
 # data.1 = digitize(cal,col ="red")
 
 # Here, after running this function, click on the points
-data.1 = DigitData(col ="red")
+# data.1 = DigitData(col ="red")
 # Calibrate the x and y axes
-data.2 = Calibrate(data.1,cal,
-                   x1 = 1, x2 = 5,
-                   y1 = 7, y2 = 9.5)
+# data.2 = Calibrate(data.1,cal,
+                   # x1 = 1, x2 = 5,
+                   # y1 = 7, y2 = 9.5)
 # Show the data!
-data.2
+# data.2
 
 # Alternative: web base digitization
 # http://arohatgi.info/WebPlotDigitizer/app/
