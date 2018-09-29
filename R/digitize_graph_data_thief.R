@@ -3,7 +3,9 @@ library(digitize)
 # dev.off()
 # click on the x axis (lowest an highest known value)
 # then the y axis (lowest to highest values)
-cal = ReadAndCal("~/Desktop/plot_zoom_png.png" )
+
+# Import image here:
+# cal = ReadAndCal("~/Desktop/plot_zoom_png.png" )
 
 # You can use the function "digitize" but I'm going
 # to show another functino
