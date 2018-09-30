@@ -12,7 +12,7 @@
 #' \dontrun{
 #' # With vector
 #' z <- c(1,2,3, NA)
-#' rm(list=ls(all=TRUE))
+#' clean.mem()
 #' z
 #' }
 
