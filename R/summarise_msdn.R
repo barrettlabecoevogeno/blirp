@@ -9,16 +9,7 @@
 #' @export
 #'
 #' @examples
-#' # With vector
-#' z <- c(1,2,3, NA)
-#' length(z) # returns 4
-#' len_noNA(z) # returns 3
-#'
-#' # with lists
-#' listz <- list(z1 = z, z2 = z, z3 = c(NA, 2, 4), NA)
-#' length_noNA(listz)
-#' length(listz) # returns 4
-#' len_noNA(z) # returns 3
+#' # Nothing yet
 #'
 
 

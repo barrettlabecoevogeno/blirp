@@ -1,1 +1,1 @@
-'%!in%' <- function(x,y)!('%in%'(x,y)) #--  x without y
+'%!in%' <- function(x,y) {!('%in%'(x,y))} #--  x without y

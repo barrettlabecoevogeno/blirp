@@ -1,5 +1,5 @@
 # install.packages("digitize")
-library(digitize)
+# library(digitize)
 # dev.off()
 # click on the x axis (lowest an highest known value)
 # then the y axis (lowest to highest values)
