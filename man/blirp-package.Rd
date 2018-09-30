@@ -25,7 +25,7 @@ Useful links:
 
 Authors:
 \itemize{
-  \item Marc-Olivier Beusoleil \email{marc-olivier.beausoleil@mail.mcgill.ca}
+  \item Marc-Olivier Beausoleil \email{marc-olivier.beausoleil@mail.mcgill.ca}
 }
 
 }
