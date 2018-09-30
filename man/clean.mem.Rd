@@ -19,9 +19,11 @@ Will delete everything in R's memory
 Just be careful before deleting your Global environment to be sure this is what you wanted!
 }
 \examples{
+
+\dontrun{
 # With vector
 z <- c(1,2,3, NA)
 rm(list=ls(all=TRUE))
 z
-
+}
 }

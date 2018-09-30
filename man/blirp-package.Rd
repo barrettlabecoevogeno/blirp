@@ -12,8 +12,21 @@ A package of useful little R functions and tips, written by the members of the B
 The Barrett Lab Internal R Package (blirp).
 Useful functions and little tricks to help you with R!
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/barrettlabecoevogeno/blirp}
+  \item Report bugs at \url{https://github.com/barrettlabecoevogeno/blirp/issues}
+}
+
+}
 \author{
-\strong{Maintainer}: Timothy THurman \email{timothy.j.thurman@gmail.com}
+\strong{Maintainer}: Timothy Thurman \email{timothy.j.thurman@gmail.com}
+
+Authors:
+\itemize{
+  \item Marc-Olivier Beusoleil \email{marc-olivier.beausoleil@mail.mcgill.ca}
+}
 
 }
 \keyword{internal}

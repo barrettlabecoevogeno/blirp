@@ -8,14 +8,16 @@
 #' @export
 #'
 #' @examples
+#'
+#' \dontrun{
 #' # With vector
 #' z <- c(1,2,3, NA)
 #' rm(list=ls(all=TRUE))
 #' z
-#'
+#' }
 
 clean.mem <- function () {
-  rm(list = ls(all = TRUE, envir = globalenv()),
+  rm(list = ls(all.names = TRUE, envir = globalenv()),
      envir = globalenv())
   return(invisible(NULL))
 }

@@ -2,10 +2,14 @@ Package: blirp
 Title: Barrett Lab Internal R Package
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "Timothy",
-           family = "THurman",
-           role = c("aut", "cre"),
-           email = "timothy.j.thurman@gmail.com")
+    c(person(given = "Timothy",
+             family = "Thurman",
+             role = c("aut", "cre"),
+             email = "timothy.j.thurman@gmail.com"),
+       person(given = "Marc-Olivier",
+              family = "Beusoleil",
+              role = c("aut"),
+              email = "marc-olivier.beausoleil@mail.mcgill.ca"))
 Description: A package of useful little R functions and tips, written by the members of the Barrett Lab at McGill University.
 License: GPL-3
 Encoding: UTF-8
@@ -16,3 +20,5 @@ Imports:
     stringr
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.0
+URL: https://github.com/barrettlabecoevogeno/blirp
+BugReports: https://github.com/barrettlabecoevogeno/blirp/issues
