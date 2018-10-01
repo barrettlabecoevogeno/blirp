@@ -1,10 +1,14 @@
 #' Length of a vector, without NAs
 #'
-#' @description This function allows you to express your love of cats.
-#' @param vector An R vector
+#' A function which give the length of an object, but does not count NAs
+#'
+#' Not very tested yet. Might cause trouble if called on a matrix or array. When
+#' called on a list, counts each element in the list even if there is an NA
+#' within that element, so be careful.
+#'
+#' @param vector A vector.
 #' @param ... There for compatibility with internal function calls.
 #' @return Returns and integer giving the length of the vector, not counting NAs
-#' @note Not very tested yet. Might cause trouble if called on a matrix. When called on a list, counts each element in the list even if there is an NA within that element
 #'
 #' @export
 #'
