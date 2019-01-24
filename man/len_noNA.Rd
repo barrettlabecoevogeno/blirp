@@ -7,7 +7,7 @@
 len_noNA(vector, ...)
 }
 \arguments{
-\item{vector}{An R vector}
+\item{vector}{A vector.}
 
 \item{...}{There for compatibility with internal function calls.}
 }
@@ -15,10 +15,12 @@ len_noNA(vector, ...)
 Returns and integer giving the length of the vector, not counting NAs
 }
 \description{
-This function allows you to express your love of cats.
+A function which give the length of an object, but does not count NAs
 }
-\note{
-Not very tested yet. Might cause trouble if called on a matrix. When called on a list, counts each element in the list even if there is an NA within that element
+\details{
+Not very tested yet. Might cause trouble if called on a matrix or array. When
+called on a list, counts each element in the list even if there is an NA
+within that element, so be careful.
 }
 \examples{
 # With vector

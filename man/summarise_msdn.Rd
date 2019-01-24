@@ -9,10 +9,10 @@ summarise_msdn(.df, ...)
 \arguments{
 \item{.df}{An input dataframe, can be used as when piping.}
 
-\item{...}{The}
+\item{...}{The column(s) which you would like to summarize. Need to be numeric.}
 }
 \value{
-Returns and integer giving the length of the vector, not counting NAs
+A dataframe summarizing the mean, standard deviation, and sample size for each numeric data column.
 }
 \description{
 This function allows you to express your love of cats.

@@ -1,6 +1,6 @@
 Package: blirp
 Title: Barrett Lab Internal R Package
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: 
     c(person(given = "Timothy",
              family = "Thurman",
@@ -30,6 +30,6 @@ Imports:
     exif,
     raster
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.1
 URL: https://github.com/barrettlabecoevogeno/blirp
 BugReports: https://github.com/barrettlabecoevogeno/blirp/issues
